@@ -1,0 +1,88 @@
+/** this deserves more organization that currently present**/
+
+.nav{
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #818181;
+    color:#d3d3d3;
+    margin:0px;
+}
+
+
+.nav-blanket{
+    background-color: #818181;
+    color:#d3d3d3;
+}
+
+.nav-link{
+    color:#d3d3d3;
+}
+
+
+.content{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.hd{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d3d3d3;
+}
+
+.para{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d3d3d3;
+}
+
+.bg{
+    border-color: #414141;
+}
+
+.profile-pic{
+    width: 40%;
+    height:40%;
+}
+
+li{
+    color:#d3d3d3;
+}
+
+.nav-link:hover{
+    color: #414141;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color:#d3d3d3
+}
+.navbar-brand:hover{
+    color:#414141;
+}
+a:hover{
+    color:#414141;
+}
+
+.light-back{
+    background: #696969;
+}
+
+.dark-back{
+    background: #414141;
+}
+
+.separator{
+    text-align: center;
+}
+
+.mail-icon{
+    width: 125px;
+    height: 90px;
+}
+
+.btn-style{
+    background: #d3d3d3;
+}
+
+
