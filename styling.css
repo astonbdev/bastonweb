@@ -15,7 +15,7 @@
 }
 
 .nav-link{
-    color:#d3d3d3;
+    color: rgba(255,255,255,.55);
 }
 
 
@@ -24,10 +24,15 @@
     padding-bottom: 75px;
 }
 
+
+.navbar-brand{
+    color: #4f9f96;
+}
+
 .hd{
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #d3d3d3;
+    color: #4f9f96;
 }
 
 .para{
@@ -54,9 +59,7 @@ li{
     text-decoration: none;
 }
 
-.navbar-brand{
-    color:#d3d3d3
-}
+
 .navbar-brand:hover{
     color:#414141;
 }
@@ -65,11 +68,12 @@ a:hover{
 }
 
 .light-back{
-    background: #696969;
+    background: #21303b;
 }
 
 .dark-back{
-    background: #414141;
+    background: #131b22
+
 }
 
 .separator{
@@ -83,6 +87,14 @@ a:hover{
 
 .btn-style{
     background: #d3d3d3;
+}
+
+.email{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#d3d3d3;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
