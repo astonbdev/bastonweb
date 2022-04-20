@@ -1,176 +1,216 @@
-<!-- implement bootstrap navbar
-!add resume download
-add TODO javascript games
-!add contact section-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styling.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Brian Aston</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.png" alt="Brian Aston" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Brian
+                        <span class="text-primary">Aston</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                         (707) 799-6106 ·
+                        <a href="mailto:name@email.com">brian@brianaston.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a Full-Stack Engineer looking to harness my passion of problem-solving with app creation. I graduated from University of California, Santa Cruz with a bachelors in Computer Science: Game Design and more recently, Rithm School Full-Stack Engineering bootcamp. I'm seeking to take my skillset and apply it to new environments that will allow me to grow and learn as an engineer.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/brian-aston-a4ab2181/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/astonbdev"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/BrianAstonDev"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineering Intern</h3>
+                            <div class="subheading mb-3">Rithm School</div>
+                            <ul>
+                              <li>Wrote unit tests for Student Information services website.</li>
+                              <li>Designed, wrote, and tested a form in Django to allow authenticated users to add events to the upcoming curriculum.</li>
+                              <li>Designed and prototyped a React-Native App based on the student information services web application. Wrote custom API routes to manage data on the front-end application.</li>
+                              <li>Refactored existing codebase to include new functionality for receiving, storing, and displaying Enrollment/Withdrawal forms.</li>
+                              <li>Designed and implemented several JSON serializers for backend API calls</li>
+                              <li>Used GIT versioning software to branch and compose pull requests for all of the implemented code that was written</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - April 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Claims Processor</h3>
+                            <div class="subheading mb-3">Brayton Purcell</div>
+                            <ul>
+                              <li>Analyzed large amounts of health records and complex work histories to create evidentiary claims for clients.</li>
+                              <li>Assigned to  high value cases of $100,000 plus valued clients.</li>
+                              <li>Created claims under tight deadlines by collaborating with managing attorneys and acting as liaison between departments.</li>
+                              <li>Communicated directly with partners on the status of important clients and ensuring quick turnover.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2018 - December 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Warehouse Manager</h3>
+                            <div class="subheading mb-3">Rocken-Tech</div>
+                            <ul>
+                              <li>Assembled and maintained diesel engine components</li>
+                              <li>Prepared and shipped customer orders under strict deadlines</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - August 2018</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                      <div class="flex-grow-1">
+                          <h3 class="mb-0">Rithm School</h3>
+                          <div class="subheading mb-3">Fullstack Engineering Bootcamp</div>
+                      </div>
+                      <div class="flex-shrink-0"><span class="text-primary">January 2022 - April 2022</span></div>
+                  </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of California, Santa Cruz</h3>
+                            <div class="subheading mb-3">Bachelor of Science: Computer Science - Game Design</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2010 - June 2012</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">
+                          <h3 class="mb-0">Jobly</h3>
+                          <div class="mb-3">Full-Stack Job application web-app. Uses React.js on the front-end and Express.js on the backend.</div>
+                          <div>
+                            <ul>
+                                <li><a href="https://astonbdev-jobly.surge.sh/"><p class="list-inline-item">Demo</p><i class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                <li><a href="https://github.com/astonbdev/react-jobly"><p class="list-inline-item">Source</p><i class=" list-inline-item fa-brands fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="flex-shrink-0"><img class="projects-img rounded-circle mx-auto mb-2" src="images/jobly-brand.png"></img></div>
+                  </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Warbler</h3>
+                            <div class="mb-3">Twitter clone using Flask backend</div>
+                            <div>
+                                <ul>
+                                    <li><a href="http://warbler-astonbdev.herokuapp.com/"><p class="list-inline-item">Demo</p><i class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                    <li><a href="https://github.com/astonbdev/warbler"><p class="list-inline-item">Source</p><i class=" list-inline-item fa-brands fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      <div class="flex-shrink-0"><img class="projects-img rounded-circle mx-auto mb-2" src="images/warbler.jpeg"></img></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Asteroids</h3>
+                            <div class="mb-3">Web game programmed in C# on the unity game engine</div>
+                            <div>
+                                <ul>
+                                    <li><a href="https://www.kongregate.com/games/b_aston/asteroid-field?acomplete=asteroid+field"><p class="list-inline-item">Demo</p><i class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
 
-    <!-- Bootstrap CSS -->
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styling.css">
-    
-    <title>Brian Aston - Developer</title>
-  </head>
-  <body>
-    <!--NAVBAR-->
-    <!--
-      much of this code is derived from example 1 @
-      https://getbootstrap.com/docs/5.0/components/navbar/
-      need to review css classes to understand all of the mechanics at work here-->
+                        <div class="flex-shrink-0"><img class="projects-img rounded-circle mx-auto mb-2" src="images/Asteroids.png"></img></div>
 
-    <nav class="navbar navbar-expand-md sticky-top bg-dark">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">Brian Aston - Developer</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!----- ABOUT CONTAINER-->
-    <span id="about"></span>
-      <div class="container-fluid dark-back">
-        <div class="row content justify-content-center">
-          <div class="col-md-4">
-            <img src="images/profile.png" class="rounded img-fluid height:50%">
-          </div>
-          <div class="col-md-4 justify-content-center">
-            <h1 class="hd justify-content-center">About</h1>
-              <p class="para">Brian Aston is a gaming enthusiast looking to harness his passion for fun into a creative force. A deep love of games and puzzles drove him to become a budding game developer, and now a software engineer. 
-                He graduated from University of California, Santa Cruz with a bachelors in Computer Science: Game Design. He has helped engineer several games and is now seeking to expand his knowledge into web design and engineering.</p>
-              <br>
-              <p class="para">Brian has extensive knowledge of the Unity game engine and has created several projects in Unity as detailed below. Additionally, he has former web development experience after working for
-                The Green Sheet. 
-              </p>
-              <a href="docs/BrianAstonResume.pdf" download><button type="button" class="btn btn-style">Resume   <i class="bi bi-download"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-              </svg></i></button></a>
-              <br>
-              <h2 class="email">Contact me at: astonb.dev@gmail</h2>
-          </div>
-        </div>
-      </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fa-brands fa-js"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <ul>
+                      <li>Javascript</li>
+                      <li>Python</li>
+                      <li>C#</li>
+                      <li>React.js</li>
+                      <li>Flask</li>
+                      <li>Express.js</li>
+                      <li>Django</li>
 
-    <!---- PORTFOLIO CONTAINER-->
-    <!--Title-->
-    <div id="portfolio" class ="container-fluid">
-      <div class="row content justify-content-center light-back">
-        <div class="col-md-12">
-          <h1 class="hd separator">Portfolio</h1>
-        </div>
-      </div>
-      <!--row1-->
-      <div id="Match3" class="row content justify-content-center dark-back">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <h1 class="hd">Match 3 Game</h1>
-          </div>
-        </div>
-        <div id="Match-img" class="col-md-4">
-          <img src="images/match3.png" class="rounded img-fluid">
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Language: C#</li>
-            <li>Using Unity Game Engine</li>
-            <li>Match 3 game ala Bejeweled</li>
-          </ul>
-        </div>
-      </div>
-      <!--row2-->
-      <div id="Asteroids" class="row content justify-content-center light-back">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <h1 class="hd">Asteroids</h1>
-          </div>
-        </div>
-        <div id="Asteroids-img" class="col-md-4">
-          <img src="images/Asteroids.png" class="rounded img-fluid">
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Language: C#</li>
-            <li>Using Unity Game Engine</li>
-            <li>Asteroids clone</li>
-            <li><a href="https://www.kongregate.com/games/b_aston/asteroid-field" target="_blank" rel="noopener noreferrer"togtwe were here too>Play here</a></li>
-          </ul>
-        </div>
-      </div>
-      <!--row3-->
-      <div id="Slots" class="row content justify-content-center dark-back">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <h1 class="hd">Slot Reel Emulator</h1>
-          </div>
-        </div>
-        <div id="slots-img" class="col-md-4">
-          <img src="images/slots.png" class="rounded img-fluid">
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Language: C#</li>
-            <li>Using Unity Game Engine</li>
-            <li>Emulates a slot reel using JSON results</li>
-          </ul>
-        </div>
-      </div>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>While not working on challenging code problems, I love playing games! All games are up for play, table, board, video anything that looks fun. In addition, I enjoy learning to love and play music. I also enjoy spending time exercising and going on hikes in my local area. When I'm not doing any of these things, I'm usually playing with my play-obsessed cat 'Kona'</p>
+                    <div class="flex-shrink-0"><img class="img-fluid rounded-3 mx-auto mb-2" src="images/kona.jpg" alt="kona the cat"></img></div>
 
-      <!--row4-->
-      <div id="Memes" class="row content justify-content-center light-back">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <h1 class="hd">Meme Generator</h1>
-          </div>
+                </div>
+            </section>
+            <hr class="m-0" />
         </div>
-        <div id="memes-img" class="col-md-4">
-          <a href="projects/memeGen.html"><img src="images/memeGenImg.jpg" class="rounded img-fluid"></a>
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Language: Javascript, HTML, CSS</li>
-            <li>Makes memes using source url</li>
-            <li><a href="projects/memeGen.html">Try it here!</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!--CONTACT-->
-    <div id="contact" class="container-fluid">
-      <div class="row justify-content-center dark-back">
-        <div class="col-md-4 justify-content-center">
-          <h1 class ="hd">Contact</h1>
-          <br>
-          <h2 class="email">astonb.dev@gmail</h2>
-        </div>
-        <div class = "col-md-4 justify-content-center">
-          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="brian-aston-a4ab2181" data-version="v1"></div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!-- Bootstrap JS w/ Popper-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!--linkedin badge script-->
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
