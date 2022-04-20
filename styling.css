@@ -1,95 +1,97 @@
 /** this deserves more organization that currently present**/
 
-.nav{
-    font-size:medium;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #818181;
-    color:#d3d3d3;
-    margin:0px;
+.nav {
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #818181;
+  color: #d3d3d3;
+  margin: 0px;
 }
 
-
-.nav-link{
-    color: rgba(255,255,255,.55);
+.nav-link {
+  color: rgba(255, 255, 255, 0.55);
 }
 
-
-.content{
-    padding-top: 75px;
-    padding-bottom: 75px;
+.content {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
-
-.navbar-brand{
-    color: #4f9f96;
+.navbar-brand {
+  color: #4f9f96;
 }
 
-.hd{
-    font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #4f9f96;
+.hd {
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #4f9f96;
 }
 
-.para{
-    font-size: medium;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #d3d3d3;
+.para {
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #d3d3d3;
 }
 
-.bg{
-    border-color: #414141;
+.bg {
+  border-color: #414141;
 }
 
-.profile-pic{
-    width: 40%;
-    height:40%;
+.profile-pic {
+  width: 40%;
+  height: 40%;
 }
 
-li{
-    color:#d3d3d3;
+li {
+  color: #d3d3d3;
 }
 
-.nav-link:hover{
-    color: #414141;
-    text-decoration: none;
+.nav-link:hover {
+  color: #414141;
+  text-decoration: none;
 }
 
-
-.navbar-brand:hover{
-    color:#414141;
+.navbar-brand:hover {
+  color: #414141;
 }
-a:hover{
-    color:#414141;
-}
-
-.light-back{
-    background: #21303b;
+a:hover {
+  color: #414141;
 }
 
-.dark-back{
-    background: #131b22
-
+.light-back {
+  background: #21303b;
 }
 
-.separator{
-    text-align: center;
+.dark-back {
+  background: #131b22;
 }
 
-.mail-icon{
-    width: 125px;
-    height: 90px;
+.separator {
+  text-align: center;
 }
 
-.btn-style{
-    background: #d3d3d3;
+.mail-icon {
+  width: 125px;
+  height: 90px;
 }
 
-.email{
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#d3d3d3;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.btn-style {
+  background: #d3d3d3;
 }
 
+.email {
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #d3d3d3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
+img .project-images {
+  width: 200px;
+  height: 200px;
+}
